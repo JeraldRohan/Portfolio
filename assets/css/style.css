@@ -276,6 +276,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  #jj{
+    color: #000;
+  }
   
   .nav-open-btn {
     font-size: 3.5rem;
@@ -378,14 +381,13 @@
   }
   
   .hero-banner .w-100 {
-    mask-image: url("../images/Blob.svg");
-    -webkit-mask-image: url("../images/Blog.svg");
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-position: center;
     -webkit-mask-position: center;
     mask-size: auto;
     -webkit-mask-size: auto;
+    border-radius: 200px;
   }
   
   .hero .shape {
